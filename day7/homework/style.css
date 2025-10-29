@@ -1,0 +1,35 @@
+
+table {
+  float: right;
+  float: top;
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  width: 200px;
+  height: 1160px;
+  margin: 30px ;
+  border-collapse: collapse ;
+}
+p {
+font-size: 20px;
+}
+
+th,td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: center;
+}
+
+
+.header {
+  text-align: center;
+  font-size: 22px;
+}
+.moon {
+  background-color: rgb(235,235,210);
+  text-align: center;
+}
+table img {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
