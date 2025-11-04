@@ -46,7 +46,7 @@ print(False and False) #False
 
 #or
 print(True or True) #True
-print(False or True) #True
+print(False or True) #True0
 print(True or False) #True
 print(False or False) #False
 
