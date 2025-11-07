@@ -8,6 +8,62 @@ body {
   margin: 0;
   padding: 40px;
 }
+.logo {
+ float: left;
+ margin-bottom: ;
+
+}
+
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+  
+ol li {
+  float: right;
+}
+
+ol li a {
+  border: solid #000000;
+  border-radius: 12px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 90px;
+  margin: 20px 23px ;
+  margin: 20px 23px ;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+
+}
+
+ol li a:hover {
+  background-color: #7e7a7a;
+  color: #f1f1f1;
+}
+
+input[type=text] {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 400px;
+    margin: 0;
+    padding: 14px;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+  .j {
+    background-color: #adabab;
+    border: solid white;
+    border-radius: 22px;
+    
+  }
+
 .o {
   display: flex;
   flex-wrap: wrap;
@@ -18,6 +74,7 @@ body {
 }
 
 .first-card {
+  margin-top: 50px;
   box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
   transition: transform 0.25s ease, box shadow 0.25s ease;
   border-radius: 20px;
@@ -26,9 +83,13 @@ body {
   width: 540px;
   position: relative;
   margin-left: 0;
+  transition: background-color 1s ease-out, transform 1s ease-out;
 }
-
+.first-card:hover {
+  transform: scale(1.1);
+}
 .second-card,.third-card,.forth-card,.fifth-card {
+  margin-top: 50px;
   box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
   transition: transform 0.25s ease, box shadow 0.25s ease;
   border-radius: 20px;
@@ -36,6 +97,20 @@ body {
   padding: 20px;
   width: 300px;
   position: relative;
+  transition: background-color 1s ease-out, transform 1s ease-out;
+}
+
+.fifth-card:hover {
+ transform: scale(1.1);
+}
+.second-card:hover {
+  transform: scale(1.1);
+}
+.third-card:hover {
+  transform: scale(1.1);
+}
+.forth-card:hover {
+  transform: scale(1.1);
 }
 
 .first-img {
@@ -77,11 +152,12 @@ body {
   width: 110px;
   height: 36px;
   padding: auto;
-  
+  transition: background-color 1s ease-out, transform 1s ease-out;
 }
 
 .btn-add:hover {
   background-color: #333;
+   transform: scale(1.1);
 }
 
 .btn-buy {
@@ -92,11 +168,12 @@ body {
   width: 110px;
   height: 36px;
   padding: auto;
-
+  transition: background-color 1s ease-out, transform 1s ease-out;
 }
 
 .btn-buy:hover {
   background-color: #333;
+   transform: scale(1.1);
 }
 
 .second-card {
