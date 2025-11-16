@@ -11,7 +11,7 @@ name = input("write your name: ")
 name1 = "mari"
 print( name1 == name)
 
-# name1 = mari
+# _name1 = mari
 # enter name
 # if name is equal to name1
 # print True
