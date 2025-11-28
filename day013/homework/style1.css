@@ -60,9 +60,10 @@ input[type=text] {
  }
 .cards{
     display: flex;
-    gap: 40px;
+    gap: 90px;
+    margin-left: 65px;
 }
-  .second-card,.first-card {
+  .second-card,.first-card,.third-card,.forth-card {
   margin-top: 50px;
   box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
   transition: transform 0.25s ease, box shadow 0.25s ease;

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(13, 13, 57);
+    color: white;
+}
+a {
+    color: aliceblue;
+    border: solid #f7f7f7;
+    border-radius: 12px;
+    text-decoration: none;
+    width: 90px;
+    margin: 20px 23px ;
+    margin: 20px 23px ;
+    height: 30px;
+    text-align: center;
+    padding-top: 3px;
+    float: left;
+}
+.bar {
+    float: right;
+    display: block;
+}
+
+.k {
+    text-align: center;
+    margin-right: 210px;
+}
+
+h1,p {
+    margin-left: 150px;
+}
+p {
+    font-size: 22px;
+}
+h1 {
+    font-size: 35px;
+}
+.m {
+    border-radius: 18px;
+}
+li  {
+    margin-left: 1050px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+img {
+    margin-left: 500px;
+}

@@ -1,0 +1,114 @@
+.container {
+    display: inline-block;
+    margin-left: 50px;
+}
+.box {
+    display: flex;
+}
+.logo {
+    float: left;
+}
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+  
+ol li {
+  float: right;
+}
+
+ol li a {
+  border: solid #000000;
+  border-radius: 12px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  width: 90px;
+  margin: 20px 23px ;
+  margin: 20px 23px ;
+  height: 30px;
+  text-align: center;
+  padding-top: 3px;
+
+}
+
+ol li a:hover {
+  background-color: #7e7a7a;
+  color: #f1f1f1;
+}
+
+input[type=text] {
+    float: right;
+    display: block;
+    text-align: left;
+    width: 400px;
+    margin: 0;
+    padding: 14px;
+    border-radius: 8px;
+    margin-right: 50px;
+    margin-top: 10px;
+  }
+.greenip {
+   margin-left: 170px; 
+   border-color: gray;
+   border-style: solid;
+   border-radius: 16px;
+   width: 650px;
+}
+
+.buy {
+    width: 478px;
+    height: 50;
+    color: white;
+    background-color: #0968f6;
+    border-radius: 16px ;
+    padding: 18px 20px;
+    border-color: aliceblue;
+    border-style: solid;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.buy:hover{
+    background-color: white;
+    color: #0968f6;
+    border-color: #0968f6;
+}
+
+.add {
+    width: 478px;
+    height: 50;
+    color: white;
+    background-color: #0968f6;
+    border-radius: 16px ;
+    padding: 18px 20px;
+    border-color: aliceblue;
+    border-style: solid;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.add:hover{
+    background-color: white;
+    color: #0968f6;
+    border-color: #0968f6;
+}
+.fav {
+    width: 478px;
+    height: 50;
+    color: #0968f6;
+    background-color: white;
+    border-radius: 16px ;
+    padding: 18px 20px;
+    border-color: #0968f6;
+    border-style: solid;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.fav:hover{
+    color: white;
+    background-color: #0968f6;
+    border-color: white;
+}
+
