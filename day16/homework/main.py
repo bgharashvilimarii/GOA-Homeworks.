@@ -14,13 +14,14 @@
 # თუ მომხმარებელს ამოეწურა მცდელობების რაოდენობა ან სწორად შეიყვანა პაროლი უბრალოდ გათიშეთ while ციკლი
 
 correct_password = "goa123"
+print("you have 3 tries")
 input_password = input("Please Enter Your Password: ")
-tries = 0
-max_tries = 2
+
+tries = 2
 
 
-while input_password != correct_password and tries < max_tries:
-    attampt = attampt + 1
+while input_password != correct_password and tries > 0:
     print("Password is incorrect! Try again")
-    print("you only have 3 attampt")
+    print("you have " + str(tries) + " tries left")
+    tries = tries - 1
     input_password = input("Please Enter Your Password: ")
