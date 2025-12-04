@@ -23,6 +23,30 @@ input[type=text] {
     margin-bottom: 30px;
     margin-left: 30px;
   }
+input[type=email] {
+      display: block;
+    text-align: left;
+    width: 400px;
+    margin: 0;
+    padding: 14px;
+    border-radius: 8px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+input[type=password] {
+      display: block;
+    text-align: left;
+    width: 400px;
+    margin: 0;
+    padding: 14px;
+    border-radius: 8px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
 .t {
     background-color: rgb(62, 86, 238);
     color: white;
