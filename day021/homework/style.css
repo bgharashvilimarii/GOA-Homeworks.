@@ -1,0 +1,45 @@
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('Screenshot\ 2025-12-14\ 150504.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(2px);
+  transform: scale(1.1); /* blur-ის კიდეების დასაფარად */
+  z-index: -1;
+  width: 1600px;
+  height: 770px;
+}
+
+.sing {
+    border:  rgb(47, 47, 51) solid;
+    padding-left: 20px;
+    width: 520px;
+    background-color: white;
+    margin-left: 550px;
+    margin-top: 200px;
+    width: 500px;
+    height: 480px;
+    display: block;
+    text-align: center;
+    padding-right: 30px;
+    border-radius: 12px;
+}
+
+input[type=text],input[type=email],input[type=password]{
+    border-radius: 4px;
+    width: 290px;
+    height: 40px;
+    padding-left: 10px;
+
+}
+
+.b {
+    border-radius: 8px;
+    border-color: aliceblue;
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+}
