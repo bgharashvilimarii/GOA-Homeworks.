@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(118, 70, 215);
+}
+
+.e {
+    margin: 0;
+    padding-top: 50px;
+    color: white;
+    font-size: 90px;
+    margin: 0;
+    
+}
+.d {
+    margin: 0;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 10;
+    margin-bottom: 10px
+    
+}
+.heads {
+    padding-left: 350px;
+    text-align: left;
+    margin-right: 0;
+    margin: 0;
+    gap: 4px;
+    color: white;
+    font-size: 40px;
+}
+
+.cont {
+    background-color: rgb(32, 31, 31);
+    border: 3px rgb(47, 47, 51) solid;
+    padding-left: 20px;
+    width: 520px;
+    width: 230px;
+    height: 500px;
+    text-align: center;
+    padding-right: 30px;
+    border-radius: 12px;
+    margin-left: 470px;
+    box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
+}
+input[type=text] {
+    border-radius: 6px;
+    border: solid;
+    margin-top: 10px;
+    color: gray;
+    width: 200px;
+    height: 28px;
+    background-color: rgb(32, 31, 31) ;
+}
+option {
+    text-align: center;
+    color: white;
+    background-color:  rgb(32, 31, 31);
+    font-size: 16px;
+    border: none;
+}
+select {
+    text-align: center;
+    font-size: 16px;
+    width: 200px;
+    border: none;
+    color: white;
+    background-color:  rgb(32, 31, 31);
+}
+p {
+    padding-top: 10px;
+    color: gray;
+    margin: 0;
+}
+
+.con {
+    margin-top: -150px;
+    float: right;
+    margin-right: 500px;
+    background-color: rgb(32, 31, 31);
+    border: 3px rgb(47, 47, 51) solid;
+    padding-left: 20px;
+    width: 520px;
+    width: 230px;
+    height: 500px;
+    text-align: center;
+    padding-right: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgb(0, 0, 0, 0.88);
+}
+.k {
+    margin-left: 900px;
+    margin-top: -130px;
+}
+.f {
+    margin: 0;
+    color: white;
+    font-size: 90px;
+    margin: 0;
+}
+.x {
+    margin: 0;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 10;
+    margin-bottom: 10px
+}
